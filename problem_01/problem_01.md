@@ -8,7 +8,7 @@ anagrams but ‘eat’ and ‘tar’ are not
     -Run function
     -Write Unit test of anagram function.
 
-#####Write a function for checking two string are anagram.
+#### Write a function for checking two string are anagram.
 ~~~kotlin
 private fun areAnagrams(one: String, two: String): Boolean {
     val map = HashMap<Char, Int>()
@@ -31,7 +31,8 @@ private fun areAnagrams(one: String, two: String): Boolean {
     return map.isEmpty()
 }
 ~~~~
-#####Run function
+
+#### Run function
 
 ~~~kotlin
 fun main() {
@@ -41,7 +42,7 @@ fun main() {
 }
 ~~~
 
-#####Write Unit test of anagram function.
+#### Write Unit test of anagram function.
 ~~~kotlin
 
 class AnagramTest {
@@ -59,3 +60,4 @@ class AnagramTest {
 
 }
 ~~~
+### [Source code Snippet](https://github.com/mdaslamHossin/BongoBdTest/tree/master/problem_01)
