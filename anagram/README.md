@@ -60,4 +60,3 @@ class AnagramTest {
 
 }
 ~~~
-### [Source code Snippet](https://github.com/mdaslamHossin/BongoBdTest/tree/master/problem_01)
