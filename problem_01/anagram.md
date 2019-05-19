@@ -5,8 +5,7 @@ anagrams but ‘eat’ and ‘tar’ are not
 
 #### Task
     -Write a function for checking two string are anagram.
-    -Run function
-    -Write Unit test of anagram function.
+    -Write Unit test of anagram function 
 
 #####Write a function for checking two string are anagram.
 ~~~kotlin
@@ -31,31 +30,3 @@ private fun areAnagrams(one: String, two: String): Boolean {
     return map.isEmpty()
 }
 ~~~~
-#####Run function
-
-~~~kotlin
-fun main() {
-    val firstString = "table"
-    val secondString = "bleat"
-    println("Are anagrams: ${areAnagrams(firstString, secondString)}")
-}
-~~~
-
-#####Write Unit test of anagram function.
-~~~kotlin
-
-class AnagramTest {
-    @Test
-    fun areAnagrams() {
-        assertTrue(Anagram().areAnagrams("bleat", "table"))
-
-    }
-
-    @Test
-    fun notAnagrams() {
-        assertFalse(Anagram().areAnagrams("eat", "tar"))
-
-    }
-
-}
-~~~
