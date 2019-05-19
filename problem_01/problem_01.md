@@ -4,10 +4,10 @@ Write a function that detects if two strings are anagram e.g. ‘bleat’ and �
 anagrams but ‘eat’ and ‘tar’ are not
 
 #### Task
-[] Write a function for checking two string are anagram.
-[] Write Unit test of anagram function 
+    -Write a function for checking two string are anagram.
+    -Write Unit test of anagram function 
 
-[x] Write a function for checking two string are anagram.
+*Write a function for checking two string are anagram.
 ~~~kotlin
 private fun areAnagrams(one: String, two: String): Boolean {
     val map = HashMap<Char, Int>()
